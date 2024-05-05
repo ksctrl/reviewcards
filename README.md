@@ -3,7 +3,6 @@
   <body>
    <style>
 .flip-card {
-  background-color: transparent;
   width: 300 px;
   height: 300 px;
 }
@@ -18,11 +17,8 @@
   transform: rotateY (180 deg);
 }
 .flip-card-front, .flip-card-back {
-  position: absolute;
   width: 100 %;
   height: 100 %;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 .flip-card-front {
   background-color: #bbb;
